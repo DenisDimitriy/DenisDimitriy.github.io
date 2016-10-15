@@ -2,15 +2,27 @@ body{
     margin: 0;
     border: 0;
     padding: 0;
+    background-color: #111;
+    color: #999;
 }
 header{
-    background-color: #333333;
+    background-color: #333;
 }
 .search{
     display: block;
     height: 50px;
     text-align: right;
  }
+.search input{
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 300px;
+    border-radius: 6px;
+    border-color: #222;
+    background-color: #444;
+    color: #999;
+    font-size: 18px;
+}
 .tittle{
     display: block;
     height: 50px;
@@ -18,6 +30,12 @@ header{
     text-align: center;
     color: #cccccc;
     font-family: Calibri, sans-serif;
+    font-size: 24px;
+}
+.tittle span{
+    display: block;
+    padding-top: 10px;
+    font-size: 24px;
 }
 
 .hidden-menu {
@@ -27,7 +45,7 @@ header{
     margin: 0;
     box-sizing: border-box;
     width: 200px;
-    background-color: #333;
+    background-color: #222;
     height: 100%;
     top: 0;
     left: -200px;
