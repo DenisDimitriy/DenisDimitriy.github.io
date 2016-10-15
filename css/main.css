@@ -15,35 +15,23 @@ header{
     display: block;
     height: 50px;
     margin-top: -50px;
-    display: block;
     text-align: center;
     color: #cccccc;
     font-family: Calibri, sans-serif;
 }
 
-.logo{
-    display: block;
-    margin-top: -50px;
-    text-align: left;
-    height: 50px;
-    width: 50px;
-    background-color: #222222;
- }
-
-
 .hidden-menu {
     display: block;
     position: fixed;
-    list-style:none;
-    padding: 10px;
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
     width: 200px;
-    background-color: #eee;
+    background-color: #333;
     height: 100%;
     top: 0;
     left: -200px;
-    transition: left .2s;
+    transition: left .3s;
     z-index: 2;
     -webkit-transform: translateZ(0);
     -webkit-backface-visibility: hidden;
@@ -54,24 +42,22 @@ header{
 }
 .btn-menu {
     color: #fff;
-    background-color: #666;
-    padding: 5px;
+    background-color: #222;
+    padding: 0;
     position: fixed;
-    top: 5px;
-    left: 5px;
+    top: 0;
+    left: 0;
     cursor: pointer;
-    transition: left .23s;
+    transition: left .3s 0s;
     z-index: 3;
-    width: 25px;
+    width: 50px;
+    height: 50px;
     -webkit-transform: translateZ(0);
     -webkit-backface-visibility: hidden;
 }
-.btn-menu span {
-    display: block;
-    height: 5px;
-    background-color: #fff;
-    margin: 5px 0 0;
-    transition: all .1s linear .23s;
+.btn-menu img {
+    margin: 0;
+    transition: all .3s linear 0s;
     position: relative;
 }
 .btn-menu span.first {
@@ -79,19 +65,11 @@ header{
 }
 
 .hidden-menu-ticker:checked ~ .btn-menu {
-    left: 160px;
+    left: 200px;
 }
 .hidden-menu-ticker:checked ~ .hidden-menu {
     left: 0;
 }
-.hidden-menu-ticker:checked ~ .btn-menu span.first {
-    -webkit-transform: rotate(45deg);
-    top: 10px;
-}
-.hidden-menu-ticker:checked ~ .btn-menu span.second {
-    opacity: 0;
-}
-.hidden-menu-ticker:checked ~ .btn-menu span.third {
-    -webkit-transform: rotate(-45deg);
-    top: -10px;
+.hidden-menu-ticker:checked ~ .btn-menu img {
+    -webkit-transform: rotate(90deg);
 }
