@@ -1,0 +1,14 @@
+/* font-family: "PFBeauSansPro-Bold"; */
+@font-face {
+	font-family: "PFBeauSansPro-Bold";
+	src: url("../fonts/pfbeausanspro-bold.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "PFBeauSansPro-Light"; */
+@font-face {
+	font-family: "PFBeauSansPro-Light";
+	src: url("../fonts/pfbeausanspro-light.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
