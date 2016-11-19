@@ -1,20 +1,153 @@
+/* Common */
+
 body {
-  margin: 0;
-  border: 0;
-  padding: 0;
-  text-align: center;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    text-align: center;
+    font-family: RobotoRegular, sans-serif;
+
+    line-height: 26px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 26px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 22px;
+}
+
+h4 {
+    margin: 0;
+}
+
+p {
+    line-height: 26px;
+    margin: 3px 0;
+    text-align: justify;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .wraper {
-  width: 960px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left;
+    max-width: 960px;
+    min-width: 650px;
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
 }
 
-.title {
-  height: 40px;
-  background-color: #333;
-  font-family: Calibri, sans-serif;
-  font-size: 20pt;
+/* Header */
+
+.menu-top {
+    background-color: #333333;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.logo-nav {
+    float: left;
+    padding: 5px;
+}
+
+.nav-menu-top ul li {
+    float: left;
+    list-style-type: none;
+}
+
+.nav-menu-top span {
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    padding: 16px 18px 15px 18px;
+}
+
+.nav-menu-top a {
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    padding: 16px 18px 15px 18px;
+}
+
+.nav-menu-top a:hover {
+    background-color: #444444
+}
+
+/* Main */
+
+/*Common*/
+.common {
+    padding-top: 15px;
+    min-height: 600px;
+}
+
+.common p {
+    text-align: left;
+}
+
+.photocard {
+    float: right;
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+/*Knowledges*/
+.knowledges {
+    min-height: 600px;
+    background-color: #eeeeff;
+    padding-top: 15px;
+}
+
+.html-css-js{
+    float: left;
+    width: 300px;
+    height: 240px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+.tools {
+    min-height: 600px;
+    padding-top: 15px;
+    background-color: #ffffcc;
+}
+
+.projects {
+    min-height: 600px;
+    padding-top: 15px;
+    background-color: #ffcccc;
+}
+
+.contacts {
+    min-height: 600px;
+    padding-top: 15px;
+    background-color: #ffffff;
+}
+
+
+footer {
+    min-height: 100px;
+    padding-top: 15px;
+    background-color: #333333;
+    color: #ffffff;
 }

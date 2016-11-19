@@ -1,14 +1,28 @@
-/* font-family: "PFBeauSansPro-Bold"; */
+/* font-family: "RobotoRegular"; */
 @font-face {
-	font-family: "PFBeauSansPro-Bold";
-	src: url("../fonts/pfbeausanspro-bold.ttf");
+	font-family: "RobotoRegular";
+	src: url("../fonts/RobotoRegular.ttf") format("truetype");
 	font-style: normal;
 	font-weight: normal;
 }
-/* font-family: "PFBeauSansPro-Light"; */
+/* font-family: "RobotoLight"; */
 @font-face {
-	font-family: "PFBeauSansPro-Light";
-	src: url("../fonts/pfbeausanspro-light.ttf");
+	font-family: "RobotoLight";
+	src: url("../fonts/RobotoLight.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "RobotoMedium"; */
+@font-face {
+	font-family: "RobotoMedium";
+	src: url("../fonts/RobotoMedium.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "RobotoBold"; */
+@font-face {
+	font-family: "RobotoBold";
+	src: url("../fonts/RobotoBold.ttf") format("truetype");
 	font-style: normal;
 	font-weight: normal;
 }
