@@ -111,7 +111,7 @@ p {
 /*Common*/
 .common {
     padding-top: 55px;
-    min-height: 700px;
+    padding-bottom: 50px;
 }
 
 .common p {
@@ -128,9 +128,9 @@ p {
 
 /*Knowledges*/
 .knowledges {
-    min-height: 650px;
     background-color: #eeeeff;
     padding-top: 55px;
+    padding-bottom: 50px;
 }
 
 .html-css-js{
@@ -150,9 +150,9 @@ p {
 }
 
 .tools {
-    min-height: 650px;
     padding-top: 55px;
     background-color: #ffffcc;
+    padding-bottom: 50px;
 }
 
 .phpstorm-img {
@@ -162,15 +162,16 @@ p {
 }
 
 .projects {
-    min-height: 650px;
     padding-top: 55px;
+    min-height: 650px;
     background-color: #ccffcc;
+    padding-bottom: 50px;
 }
 
 .contacts {
-    min-height: 650px;
     padding-top: 55px;
     background-color: #ffffff;
+    padding-bottom: 50px;
 }
 
 
