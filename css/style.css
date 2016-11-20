@@ -6,7 +6,6 @@ body {
     padding: 0;
     text-align: center;
     font-family: RobotoRegular, sans-serif;
-
     line-height: 26px;
 }
 
@@ -47,25 +46,29 @@ p {
 
 .wraper {
     max-width: 960px;
-    min-width: 650px;
+    min-width: 700px;
     position: relative;
     margin: 0 auto;
-    padding: 0;
+    padding: 0 30px;
     text-align: left;
 }
 
 /* Header */
-
 .menu-top {
     background-color: #333333;
     color: #ffffff;
     margin: 0;
     padding: 0;
+    z-index: 30;
+    position: fixed;
+    width: 100%;
+    text-align: center;
 }
 
 .logo-nav {
     float: left;
     padding: 5px;
+    padding-bottom: 0px;
 }
 
 .nav-menu-top ul li {
@@ -84,19 +87,31 @@ p {
     text-decoration: none;
     color: #ffffff;
     display: inline-block;
-    padding: 16px 18px 15px 18px;
+    padding: 12px 18px 14px 18px;
 }
 
 .nav-menu-top a:hover {
-    background-color: #444444
+    background-color: #444444;
 }
 
-/* Main */
+.lang{
+    float: right;
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    padding: 12px 18px 14px 18px;
+}
+
+.lang:hover{
+    background-color: #444444;
+}
+
+    /* Main */
 
 /*Common*/
 .common {
-    padding-top: 15px;
-    min-height: 600px;
+    padding-top: 55px;
+    min-height: 700px;
 }
 
 .common p {
@@ -113,45 +128,59 @@ p {
 
 /*Knowledges*/
 .knowledges {
-    min-height: 600px;
+    min-height: 650px;
     background-color: #eeeeff;
-    padding-top: 15px;
+    padding-top: 55px;
 }
 
 .html-css-js{
     float: left;
+    width: 200px;
+    height: 160px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+.sass-less {
+    float: right;
     width: 300px;
-    height: 240px;
+    height: 100px;
     margin-right: 50px;
     margin-top: 10px;
 }
 
 .tools {
-    min-height: 600px;
-    padding-top: 15px;
+    min-height: 650px;
+    padding-top: 55px;
     background-color: #ffffcc;
 }
 
+.phpstorm-img {
+    float: right;
+    margin: 0 50px;
+
+}
+
 .projects {
-    min-height: 600px;
-    padding-top: 15px;
-    background-color: #ffcccc;
+    min-height: 650px;
+    padding-top: 55px;
+    background-color: #ccffcc;
 }
 
 .contacts {
-    min-height: 600px;
-    padding-top: 15px;
+    min-height: 650px;
+    padding-top: 55px;
     background-color: #ffffff;
 }
 
 
 footer {
     min-height: 100px;
-    padding-top: 15px;
+    padding-top: 55px;
     background-color: #333333;
     color: #ffffff;
 }
 
-.map {
-    margin-top: 50px;
+.yandex-map {
+    float: right;
 }
