@@ -67,8 +67,7 @@ p {
 
 .logo-nav {
     float: left;
-    padding: 5px;
-    padding-bottom: 0px;
+    padding: 5px 5px 0 5px;
 }
 
 .nav-menu-top ul li {
