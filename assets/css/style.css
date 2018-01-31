@@ -1,0 +1,258 @@
+/*--------------------GENERAL--------------------*/
+
+p {
+    font-size: 18px;
+}
+
+h1,
+h2 {
+    text-transform: uppercase;
+    margin-top: 85px;
+    margin-bottom: 0;
+}
+
+
+/*--------------------Navbar--------------------*/
+
+.navbar .nav.navbar-nav {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#toTop {
+    width: 60px;
+    height: 60px;
+    border: 0;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    display: none;
+    background: url("../img/arrow-to-top.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    font-size: 11px;
+    opacity: 0.5;
+}
+
+
+/*--------------------ABOUT--------------------*/
+
+.about {
+    background-image: url(../img/bg-geometry.jpg);
+    background-size: cover;
+}
+
+.about .bg-opacity {
+    background-color: rgba(255, 255, 255, 0.4)
+}
+
+.about .row.contacts {
+    margin-top: 100px;
+}
+
+.about .row.resume {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.about .avatar {
+    display: inline-block;
+    height: 220px;
+}
+
+.about .adress {
+    margin-top: 50px;
+}
+
+
+/*--------------------SKILLS--------------------*/
+
+.skills .row {
+    margin: 40px 0 40px;
+}
+
+.skills .block-skill {
+    height: 125px;
+    width: 135px;
+    margin: 20px auto 0;
+}
+
+.skills .block-skill.html {
+    background-image: url(../img/web3.png);
+    background-size: 315px;
+    background-position: 15px 0;
+}
+
+.skills .block-skill.css {
+    background-image: url(../img/web3.png);
+    background-size: 315px;
+    background-position: 120px 0;
+}
+
+.skills .block-skill.js {
+    background-image: url(../img/web3.png);
+    background-size: 315px;
+    background-position: 225px 0;
+}
+
+.skills .block-skill.bootstrap {
+    background-image: url(../img/bootstrap.png);
+    background-size: 150px;
+    background-position: -5px -20px;
+}
+
+.skills .block-skill.jquery {
+    background-image: url(../img/jquery.png);
+    background-size: 120px;
+    background-position: 5px 0;
+}
+
+.skills .block-skill.git {
+    background-image: url(../img/git.png);
+    background-size: 135px;
+    background-position: 0 -5px;
+}
+
+.skills .progress {
+    max-width: 200px;
+}
+
+.skills .progress-bar.html {
+    background-image: linear-gradient(to bottom, #d9534f 0%, #c9302c 100%);
+    width: 0;
+}
+
+.skills .progress-bar.html.scrolled {
+    width: 95%;
+    transition: width 3s ease-out 0.1s;
+}
+
+.skills .progress-bar.css {
+    background-image: linear-gradient(to bottom, #5bc0de 0%, #31b0d5 100%);
+    width: 0;
+}
+
+.skills .progress-bar.css.scrolled {
+    width: 90%;
+    transition: width 3s ease-out 0.1s;
+}
+
+.skills .progress-bar.js {
+    background-image: linear-gradient(to bottom, #f0ad4e 0%, #ec971f 100%);
+    width: 0;
+}
+
+.skills .progress-bar.js.scrolled {
+    width: 85%;
+    transition: width 3s ease-out 0.1s;
+}
+
+.skills .progress-bar.bootstrap {
+    background-image: linear-gradient(to bottom, rgb(146, 107, 204) 0%, #62488A 100%);
+    width: 0;
+}
+
+.skills .progress-bar.bootstrap.scrolled {
+    width: 75%;
+    transition: width 3s ease-out 0.1s;
+}
+
+.skills .progress-bar.jquery {
+    background-image: linear-gradient(to bottom, rgb(76, 135, 177) 0%, #0868AC 100%);
+    width: 0;
+}
+
+.skills .progress-bar.jquery.scrolled {
+    width: 65%;
+    transition: width 3s ease-out 0.1s;
+}
+
+.skills .progress-bar.git {
+    background-image: linear-gradient(to bottom, rgb(240, 122, 101) 0%, #F05033 100%);
+    width: 0;
+}
+
+.skills .progress-bar.git.scrolled {
+    width: 55%;
+    transition: width 3s ease-out 0.1s;
+}
+
+
+/*--------------------WORKS--------------------*/
+
+.works .row {
+    margin: 30px 0 50px;
+}
+
+.works .effect {
+    width: auto;
+    max-width: 400px;
+}
+
+.works .effect img {
+    margin: 0 auto;
+}
+
+.works .effect:before,
+.effect:after {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/*--------------------TOOLS--------------------*/
+
+.tools .row {
+    margin: 40px 0 40px;
+}
+
+.tools .block-tool {
+    height: 210px;
+    width: 210px;
+    margin: 0px auto 0;
+}
+
+.tools .block-tool.vscode {
+    background-image: url(../img/vscode.png);
+    background-size: 180px;
+    background-position: 20px 0;
+}
+
+.tools .block-tool.cloud9 {
+    background-image: url(../img/cloud9.png);
+    background-size: 210px;
+    background-position: 2px 0;
+}
+
+.tools .block-tool.photoshop {
+    background-image: url(../img/photoshop.png);
+    background-size: 200px;
+    background-position: 10px 0;
+}
+
+
+/*--------------------MEDIA--------------------*/
+
+@media (max-width: 768px) {
+    .about h1,
+    .about .adress {
+        text-align: center;
+    }
+    .works .effect {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .about .avatar {
+        height: 250px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .about .avatar {
+        height: 250px;
+    }
+}
